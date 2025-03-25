@@ -21,7 +21,7 @@ const QuestionInput = ({ onAskQuestion, loading }) => {
         style={{ width: "60%", padding: "8px" }}
       />
       <button onClick={handleAsk} disabled={loading} style={{ marginLeft: "10px" }}>
-        {loading ? "⏳ Asking..." : "🟢 Ask"}
+        {loading ? "⏳ Fetching..." : "🟢 Ask"}
       </button>
     </div>
   );
